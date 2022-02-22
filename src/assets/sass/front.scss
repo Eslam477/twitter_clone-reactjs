@@ -1,0 +1,58 @@
+@import "./var/_index.scss";
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.wallpaper {
+    height: 100vh;
+    background-image: url("../img/wallpaper.jpg");
+    background-color: $black;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_side {
+    background-color: $black;
+    padding: 30px 30px 0 0;
+    color: $wight;
+
+    .head {
+        h1 {
+            font-weight: bold;
+            font-size: 65px;
+            margin-top: 55px;
+        }
+        p {
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+    }
+}
+.login_buttons {
+    width: 100%;
+    button {
+        display: block;
+        width: 300px;
+        padding: 8px;
+        border-radius: 100px;
+        color: $wight;
+        background-color: #333;
+        margin: 10px;
+        margin-right: 0;
+    }
+    span {
+        position: relative;
+        hr {
+            width: 300px;
+        }
+        span {
+            position: absolute;
+            top: -10px;
+            right: 140px;
+            background-color: $black;
+            padding: 5px;
+        }
+    }
+}
